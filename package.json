@@ -1,0 +1,32 @@
+{
+  "name": "webserver-app",
+  "version": "1.0.0",
+  "description": "Webserver App con node",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node app.js"
+  },
+  "keywords": [],
+  "author": "Juan Contreras <jcontrerasmeneses@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcontrerasm/webserver-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jcontrerasm/webserver-app/issues"
+  },
+  "homepage": "http://localhost:3000/",
+  "private": true,
+  "dependencies": {
+    "express": "4.17.1",
+    "pug": "2.0.4"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.3",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-stage-0": "6.24.1",
+    "nodemon": "1.19.1"
+  }
+}
