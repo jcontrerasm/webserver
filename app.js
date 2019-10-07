@@ -5,8 +5,8 @@ import { helpers } from './config/helpers';
 import { routes } from './config/routes';
 
 const app = express();
-const port = process.env.PORT || argv.port || 3000;
 
+const port = process.env.PORT || argv._[0] || 3000;
 enviroment(app, express);
 helpers(app);
 routes(app);
