@@ -12,5 +12,5 @@ helpers(app);
 routes(app);
 
 app.listen(port, () => console.log(
-  `Node.js server is listening at http://localhost:${port}/`
+  `Node.js server is listening at http://localhost:${argv.port}/`
 ));
