@@ -1,0 +1,6 @@
+cron:
+
+- description: Entrega diaria de reportes
+  url: /entregar-reporte
+  schedule: every day 22:15
+  timezone: America/Lima
